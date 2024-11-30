@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=FORM, initial-scale=1.0">
+    <title>Formulario Registro Santi</title>
+</head>
+<body>
+     <!--Action se utliza para redireccionar el formulario -->
+    
+     <h1>Formulario Registro Conferencia</h1>
+    <form action="/submit.html"method="post">
+      <br>
+      <!--Nombre Completo-->
+      <label for="nombre">NOMBRE COMPLETO</label>
+      <INPUT type="text" id="nombre" name="Nombre" placeholder="escribe tu nombre Completo--" 
+      required>
+        <br><br>
+       <!--correo electronico-->
+       <label for="email">CORREO ELECTRONICO</label>
+       <input type="email" name="email" id="email" placeholder="ejemplo@.com" <required>
+
+       </required> 
+       <br> <br>
+       <!--Numero de telefono-->
+
+       <label for="telefono"> NUMERO DE TELEFONO </label>
+       <input type="Number" id="telefono" placeholder="Ejemplo: 123456789" 
+        maxlength="10"required>
+       
+       <BR></BR>
+      
+       <!--Fecha de Nacimiento-->
+
+       <label for="Fecha"> FECHA DE NACIMIENTO</label>
+       <input type="date" name="Fecha" id="FECHA">
+       <br><br>
+
+       <!--Genero-->
+
+        <label> GENERO </label>
+        <input type="RADIO" ID="MASCULINO" name="GENERO" value="1" required>
+        <LABEL for="MASCULINO">MASCULINO</LABEL>
+        <input type="RADIO" ID="FEMENINO" name="GENERO" value="2" required>
+        <LABEL for="FEMENINO">FEMENINO</LABEL>
+        <input type="RADIO" ID="OTROS" name="GENERO" value="3" required>
+        <LABEL for="OTRO">OTROS</LABEL> <required>
+
+            <BR></BR>
+
+            <!--INTERESES-->
+            
+            <label>INTERESES</label>
+         <INPUT type="checkbox" id="technologia" name="intereses" value="technologia">
+         <label for="technologia">Technologia</label>
+         <input type="checkbox" id="ciencia" name="intereses" value="ciencia">
+         <label for="ciencia">Ciencia</label>
+         <input type="checkbox" ID="Arte" name="intereses" value="Arte">
+         <label for="Arte">Arte</label>
+         <input type="checkbox" id="Negocios" name="intereses" value="negocios">
+         <label for="negocios">Negocios</label>
+
+         <BR></BR>
+
+              <!--PAIS DE RESIDENCIA-->
+              <label for="PAIS"> PAIS DE RESIDENCIA:</label>
+              <select name="pais" id="pais"> 
+              <option value="Selecciona tu pais">Seleciona tu pais</option>
+              <option value="VENEZUELA">VENEZUELA</option>
+              <OPtion value="ARGENTINA">ARGENTINA</OPtion>
+              <option value="ECUADOR">ECUADOR</option>
+              </select
+
+              ><BR></BR>
+
+              <!--MENSAJE ADICIONAL-->
+            <label for="Mensaje">Mensaje Adicional</label>
+            <textarea name="Mensaje" id="Mensaje" rows="4" cols="40" placeholder="Escribe Comentario"></textarea>
+            
+            <br> <br>
+
+            <!--ACEPTA RECIBIR NOVEDADES-->
+            
+            <label for="NOVEDADES">Acepto Recibir Novedades por email</label>
+            <input type="checkbox"name="NOVEDADES" id="NOVEDADES" 
+            
+        ><BR></BR>
+        <!--BOTTON DE ENVIO-->
+                <!-- BOTTOS DE ENVIAR-->
+        <button type="submit">ENVIAR</button>
+
+                <!--BOTON DE LIMPIAR EL FORMULARIO-->
+                
+        <BUTTon type="reset">BUTTON LIMPIAR</BUTTon:>
+
+
+
+         <!-- VIDEO OPCIONAL 22 NOV CON SANTINO URSINO ESTA EN GITHUB Y DISCORD--> 
+    </form>
+
+
+
+
+
+    
